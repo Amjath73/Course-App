@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://amjath:itsArkingtime7@cluster0.n01k0zd.mongodb.net/courseDB?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://amjath:itsArkingtime7@cluster0.n01k0zd.mongodb.net/militaryDB?retryWrites=true&w=majority&appName=Cluster0")
 
 app.post("/add", (req, res) => {
     let input = req.body
